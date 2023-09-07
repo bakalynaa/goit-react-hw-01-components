@@ -9,6 +9,7 @@
 }
 
 .title {
+  text-align: center;
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -27,8 +28,9 @@
   width: 48%;
   text-align: center;
   gap: 15px;
-  background-color: #f3f3f3;
-  border-radius: 4px;
+  background-color: silver;
+  display: flex;
+  flex-direction: column;
 }
 
 .label {
